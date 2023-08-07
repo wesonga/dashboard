@@ -2,9 +2,10 @@
 // Connect to your database (replace the placeholders with your actual database credentials)
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Password";
 $dbname = "ubuntu-kwanzaa";
-$port = 3307;// Replace with your database port number
+$port = 3306;
+// Replace with your database port number
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 if ($conn->connect_error) {
