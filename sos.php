@@ -13,9 +13,10 @@ if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
 // Connect to your database (replace the placeholders with your actual database credentials)
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Password";
 $dbname = "ubuntu-kwanzaa";
-$port = 3307;
+$port = 3306;
+
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
 if ($conn->connect_error) {
