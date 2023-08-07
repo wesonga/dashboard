@@ -4,9 +4,10 @@
 // Connect to your database (replace the placeholders with your actual database credentials)
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Password";
 $dbname = "ubuntu-kwanzaa";
-$port = 3307;
+$port = 3306;
+
 
 // Check if the request has a valid user ID
 if (isset($_POST['id'])) {
